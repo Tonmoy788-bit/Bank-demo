@@ -17,7 +17,6 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     const previouswithdrawTotalString = withdrawTotalElement.innerText;
     const previouswithdrawTotal = parseFloat(previouswithdrawTotalString);
 
-
     // step 5
     const balancetotalElement = document.getElementById('dalance-total');
     const previousbalanceTotalString = balancetotalElement.innerText;
@@ -34,7 +33,5 @@ document.getElementById('btn-withdraw').addEventListener('click', function () {
     //step 6
     const currentBalanceTotal = previousbalanceTotal - newWithdrawAmount;
     balancetotalElement.innerText = currentBalanceTotal;
-
-
 
 })
